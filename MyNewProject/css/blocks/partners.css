@@ -1,0 +1,40 @@
+.partners {
+    background: #FFFFFF;
+    color: #1A1B1E;
+    padding: 95px 0px;
+}
+.partners__theme-grey {
+    background: #F4F5F5;
+}
+.partners__title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 65px;
+    margin-left: 12px;
+}
+.partners__item {
+    margin-left: 46px;
+    margin-bottom: 32px;
+}
+.partners__item:nth-child(4n + 1) {
+    margin-left: 0px;
+}
+.partners__link {
+    text-decoration: none;
+    display: flex;
+    width: 250px;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-start;
+    filter: grayscale(100%);
+}
+.partners__link:hover {
+    filter: grayscale(0);
+}
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.partners__logo {
+    margin-left: 11px;
+}
