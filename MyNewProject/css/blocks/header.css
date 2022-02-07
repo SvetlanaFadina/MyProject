@@ -1,5 +1,5 @@
 .main-page__wrapper {
-    background: url(/img/first.png) center top no-repeat, url(/img/second.png) right bottom 165px no-repeat;
+    background: url(../img/first.png) center top no-repeat, url(/img/second.png) right bottom 165px no-repeat;
 }
 .header__container {
     display: flex;
