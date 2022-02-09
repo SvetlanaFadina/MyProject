@@ -11,7 +11,7 @@
     display: block;
     width: 490px;
     height: 505px;
-    background: url(/img/gates.png) center center / cover no-repeat;
+    background: url(../../img/gates.png) center center / cover no-repeat;
     position: absolute;
     left: 0;
     top: 0;
@@ -24,7 +24,7 @@
     min-height: 455px;
     margin-left: auto;
     position: relative;
-    background: url(/img/mountains.png) center center / cover no-repeat;
+    background: url(../../img/mountains.png) center center / cover no-repeat;
     padding: 70px 199px 66px 81px;
 }
 .about__image-title {
