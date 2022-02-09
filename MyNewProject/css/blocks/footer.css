@@ -1,0 +1,31 @@
+.footer-container {
+    margin-top: auto;
+} 
+.footer-container__contact {
+    border-top: 1px solid rgb(255 255 255 / 10%);
+    padding-top: 45px;
+}
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+.footer__logo {
+    margin-right: 79px;
+}
+.footer__contacts {
+    font-style: normal;
+}
+.contacts__free {
+    font-size: 11px;
+    color: #9A9A9A;
+}
+.contacts__footer {
+    font-size: 26px;
+    text-decoration: none;
+}
