@@ -1,0 +1,52 @@
+.welcome {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: url(../../images/welcpic/bg.png) center center / cover no-repeat;
+}
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 590px;
+    background: url(../../images/welcpic/shades.png) center center no-repeat;   
+}
+.central__logo {
+    padding-top: 158px;
+}
+.central__text {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.central {
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation: Asia 0.9s ease-in forwards;
+}
+@keyframes Asia {
+    from{
+        transform: scale(0.7);
+    }
+    20% {
+        transform: scale(1.15);
+    }
+    40% {
+        transform: scale(0.9);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    80% {
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+}
