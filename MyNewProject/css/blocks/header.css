@@ -1,0 +1,35 @@
+.main-page__wrapper {
+    background: url(../../images/img/first.png) center top no-repeat, url(../../images/img/second.png) right bottom 165px no-repeat;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header {
+    padding-top: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.header--main {
+    margin-bottom: 129px;
+}
+
+.header__col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__col--align--right {
+    justify-content: flex-end;    
+}
+.header__logo {
+    margin-right: 79px;
+}
+.header__menu {
+    padding-top: 6px;
+}
+.header__contacts {
+    font-style: normal;
+}
